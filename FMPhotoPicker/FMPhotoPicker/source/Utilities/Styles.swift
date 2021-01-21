@@ -7,5 +7,6 @@
 //
 
 import Foundation
+import UIKit
 
 internal var kTintColor = kRedColor

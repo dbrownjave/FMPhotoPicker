@@ -27,6 +27,7 @@ public class FMPhotoPickerViewController: UIViewController {
     private weak var numberOfSelectedPhoto: UILabel!
     private weak var doneButton: UIButton!
     private weak var cancelButton: UIButton!
+
     
     // MARK: - Public
     public weak var delegate: FMPhotoPickerViewControllerDelegate? = nil

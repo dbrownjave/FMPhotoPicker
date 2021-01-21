@@ -196,6 +196,7 @@ class FMPhotoPickerImageCollectionViewCell: UICollectionViewCell {
             if self.selectMode == .multiple {
                 self.selectedIndex.isHidden = false
                 self.selectedIndex.text = "\(selectedIndex + 1)"
+                self.selectButton.tintColor = kTintColor
                 self.selectButton.setImage(UIImage(named: "check_on", in: .current, compatibleWith: nil), for: .normal)
             } else {
                 self.selectedIndex.isHidden = true

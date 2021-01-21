@@ -191,6 +191,7 @@ class FMPhotoPresenterViewController: UIViewController {
             if self.config.selectMode == .multiple {
                 self.selectedIndex.isHidden = false
                 self.selectedIndex.text = "\(selectedIndex + 1)"
+                self.selectedIcon.tintColor = kTintColor
                 self.selectedIcon.image = UIImage(named: "check_on", in: .current, compatibleWith: nil)
             } else {
                 self.selectedIndex.isHidden = true
