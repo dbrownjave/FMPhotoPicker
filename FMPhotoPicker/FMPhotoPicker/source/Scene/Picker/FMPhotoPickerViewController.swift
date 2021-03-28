@@ -94,6 +94,9 @@ public class FMPhotoPickerViewController: UIViewController {
         self.cancelButton.titleLabel!.font = UIFont.boldSystemFont(ofSize: config.titleFontSize)
         self.doneButton.setTitle(config.strings["picker_button_select_done"], for: .normal)
         self.doneButton.titleLabel!.font = UIFont.boldSystemFont(ofSize: config.titleFontSize)
+
+        // tint color
+        self.doneButton.tintColor = kTintColor
     }
     
     @objc private func onTapCancel(_ sender: Any) {
